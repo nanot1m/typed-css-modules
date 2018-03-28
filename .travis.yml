@@ -1,18 +1,18 @@
 env:
   global:
-  - GIT_COMMITTER_NAME=y-kurami
-  - GIT_COMMITTER_EMAIL=yosuke.kurami@gmail.com
-  - GIT_AUTHOR_NAME=Quramy
-  - GIT_AUTHOR_EMAIL=yosuke.kurami@gmail.com
+  - GIT_COMMITTER_NAME=t1mmaas
+  - GIT_COMMITTER_EMAIL=t1mmaas@skbkontur.ru
+  - GIT_AUTHOR_NAME=nanot1m
+  - GIT_AUTHOR_EMAIL=bboytx@gmail.com
 language: node_js
 node_js:
 - 6
 - 8
 deploy:
   provider: npm
-  email: yosuke.kurami@gmail.com
+  email: t1mmaas@skbkontur.ru
   on:
     tags: true
-    repo: Quramy/typed-css-modules
-  api_key:
-    secure: cOOIYxf8fzV5UB8IK+wxopUCTfWfUBWx4b2WphBq3Fc+n8ijUeEKK7lmmI3nQj+mRFUPds+vDmG7eXO5XdLkNKNiIV9NukWFyaqfcE7W8TNZnKICRSsmXXLT9f+jQ1ctXU5DeF3XThZA/WPCj94FxWfMBBhk2+km3ghoVZm+s6s50zo9IryRio3P6BhSZip0IXcK/VexW5WFFy11giQWBp3o3SFVo+9JwRyRhQxEUaYwU8NZdNP4T06fLqVGY7WeVGw0jKkSCOgvJq/NtwhlXNLtUqysp10wD1TjoeTUPUujSPHvfZWR0obtWqojHXEvPt5NhknGRyqBoDtAQ11i2m9kyTp6foCXUON2Sbt7me6VNIApzRZP1x2v/hjn3bTLr6Sfl73xtLEq0XUB8roKk5c37IKZ2Surf55Db/BrXLFcss9RtcweBtzMu/dh1Jf5fBTSHpULd6NbcOSXESM9RwcdhvdUqUI/wnkM/JgsfAN/kuTxreDg6ahI80r6TDBryBH37b1wmyigByI4UMX8sEDT3a0MW3lD5yFmewfCUpBYbPYEhiZj6Wknewrggp4OqWKjFg4Pj8ipuFh58OEGGkeWdobqwWuSOjKkUnZjDqF4wetryjEGCK6lzgl4Xj2sZ1cUGBG5VTGxbsSzSUBwu+nvR0DHFVUr3FAGLqs7Q9I=
+    repo: nanot1m/typed-css-modules
+dd:
+  secure: tmhefnPYBI/lGEdm3QIwIEczuBI9MNu8qu0J7a2k1tUmpNe2J4IxQMHUVh45IMRUnsfQWA5C3Z7cWNiPM0bDmPwCnnMMmJhJIwCmHxGnYopuyXWT8rqmZsLWHpmSg2UhQOmPzb/FV4eNXyYAtimxPO+A2O9xuadYgIgXZOy1xvropIZedoI9pV+gztSBClyO0wajrGRaPRDuMvMwEE4DPN5JbsiiE6GFYtecbDmV0zT3qUhFiG0NgRxupAvsPaOuZZ3X2ehlCNCOaTGKt7PUu+8/dhF6tgCUrHJ6NYPthe+CDUu2M/1GcXMt20eTTtFlkcFQhxtM2AMMQRf71ndwyOJly2hqaC7/IEZv44M9I8/vwB2ecJCnVcXQATrTLTyvOWAQJMlKjYjBkOMRxHGO5N1D3oiyFtnEsijN10CatdbRZXTldq6RX3a0Vekcqij6RFvF05Fw8u0s7r3F7nInAKpD1eW8nz0VpZ6ICd38DWnAVgO1pDMN4/XVmJuDVbgBjX4vZIMK3mP9B35a/ORaizPmgNcWcE8qjA7TgJ0naQeOFSmlnQoqBuYKnFmSuwFOwPRK+/krpjk+eQm/oFS5rD6V4zHDlrawz1l6HWZRFF90Z3CB+g4nucgJTp4Mj3DQNfsu6X6qnKySLoAKpmAa0SeBu+xrs32COcbl61GZ+TQ=
