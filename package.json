@@ -40,5 +40,8 @@
     "gulp-babel": "^7.0.0",
     "gulp-mocha": "^4.3.1",
     "gulp-plumber": "^1.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
